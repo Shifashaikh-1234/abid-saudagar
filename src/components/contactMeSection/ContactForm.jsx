@@ -38,7 +38,7 @@ const ContactForm = () => {
   return (
     <div className="sm:mb-0">
       <p className="text-black">{success}</p>
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3">
+      <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3 lg:w-[105%] sm:w-[100%]">
         <input
           type="text"
           name="from_name"
