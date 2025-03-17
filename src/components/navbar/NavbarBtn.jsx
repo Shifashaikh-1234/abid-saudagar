@@ -4,7 +4,7 @@ const NavbarBtn = () => {
   return (
      <div>
     
-    <div className="mr-6 inline-flex items-center space-x-2 sm:hidden font-body font-bold lg:flex">
+    <div className="mr-6 inline-flex items-center space-x-2 sm:hidden font-body font-normal lg:flex">
     <p className="text-md font-body text-white whitespace-nowrap">Press</p>
   
     <img src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1742201069/da4klgpw_ocfevb.png" alt="S key" className="h-[45px] w-13 rounded-md shadow-orange"/>
@@ -12,7 +12,7 @@ const NavbarBtn = () => {
     </div>
     
     
-    < div className="mr-6 flex flex-row lg:hidden sm:block font-body font-bold">
+    < div className="mr-6 flex flex-row lg:hidden sm:block font-body font-normal">
      <p className="text-md  font-body text-white whitespace-nowrap">Schedule</p>
      <p className="text-md  text-white font-body whitespace-nowrap">Meeting</p>
      </div>
