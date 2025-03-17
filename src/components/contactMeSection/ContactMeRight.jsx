@@ -5,7 +5,7 @@ const ContactMeRight = () => {
       <img
         src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1741516559/abidLogo_t1ti9w.jpg"
         alt="email image"
-        className="max-w-[250px] rounded-full mr-8 lg:block sm:hidden"
+        className="max-w-[250px] rounded-full mr-8 lg:block sm:hidden shadow-cyanshadow"
       />
       <ContactInfo />
     </div>
