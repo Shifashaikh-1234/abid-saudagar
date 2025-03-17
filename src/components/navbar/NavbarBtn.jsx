@@ -13,7 +13,7 @@ const NavbarBtn = () => {
     
     
     < div className="mr-6 flex flex-row lg:hidden sm:block font-body font-normal">
-      <a>
+      <a href="https://calendly.com/abidsaudagar/free-15-minute-ai-search-consulting">
      <p className="text-md  font-body text-white whitespace-nowrap">Schedule</p>
      <p className="text-md  text-white font-body whitespace-nowrap">Meeting</p>
         </a>
