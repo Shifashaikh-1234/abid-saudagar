@@ -7,7 +7,7 @@ const NavbarBtn = () => {
     <div className="mr-6 inline-flex items-center space-x-2 sm:hidden font-body font-bold lg:flex">
     <p className="text-md font-body text-black whitespace-nowrap">Press</p>
   
-    <img src="../../public/images/da4klgpw.png" alt="S key" className="h-[45px] w-13  mix-blend-darken rounded-md shadow-orange"/>
+    <img src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1742201069/da4klgpw_ocfevb.png" alt="S key" className="h-[45px] w-13  mix-blend-darken rounded-md shadow-orange"/>
     <p className="text-md font-body text-black whitespace-nowrap">to Schedule Calendly Meeting </p>
     </div>
     
