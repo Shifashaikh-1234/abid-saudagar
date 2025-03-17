@@ -1,16 +1,24 @@
-import { Link } from "react-scroll";
-import { LuArrowDownRight } from "react-icons/lu";
+
 
 const NavbarBtn = () => {
   return (
-    <button className=" px-2 py-2 rounded-full text-xl font-bold mr-3 ml-3 font-body text-black  flex items-center gap-3  bg-white transition-all duration-500 hover:scale-110 hover:border-orange cursor-pointer hover:shadow-cyanShadow">
-      <Link spy={true} smooth={true} duration={500} offset={-120} to="contact" className="sm:text-md lg:text-xl">
-        Meeting
-      </Link>
-      <div className="sm:hidden md:block">
-        <LuArrowDownRight />
-      </div>
-    </button>
+     <div>
+    
+    <div className="mr-6 inline-flex items-center space-x-2 sm:hidden font-body font-bold lg:flex">
+    <p className="text-md font-body text-black whitespace-nowrap">Press</p>
+  
+    <img src="../../public/images/da4klgpw.png" alt="S key" className="h-[45px] w-13  mix-blend-darken rounded-md shadow-orange"/>
+    <p className="text-md font-body text-black whitespace-nowrap">to Schedule Calendly Meeting </p>
+    </div>
+    
+    
+    < div className="mr-6 flex flex-row lg:hidden sm:block font-body font-bold">
+     <p className="text-md  font-body text-black whitespace-nowrap">Schedule</p>
+     <p className="text-md  text-black font-body whitespace-nowrap">Meeting</p>
+     </div>
+     
+     </div>
+    
   );
 };
 
