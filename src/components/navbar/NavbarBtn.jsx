@@ -13,8 +13,10 @@ const NavbarBtn = () => {
     
     
     < div className="mr-6 flex flex-row lg:hidden sm:block font-body font-normal">
+      <a>
      <p className="text-md  font-body text-white whitespace-nowrap">Schedule</p>
      <p className="text-md  text-white font-body whitespace-nowrap">Meeting</p>
+        </a>
      </div>
      
      </div>
