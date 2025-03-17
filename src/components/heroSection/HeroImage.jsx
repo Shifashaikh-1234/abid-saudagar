@@ -2,7 +2,7 @@ import { PiHexagonThin } from "react-icons/pi";
 
 const HeroImage = () => {
   return (
-    <div className="relative self-end h-full w-full items-center justify-center sm:mt-4">
+    <div className="relative self-end h-full w-full items-center justify-center sm:mt-8">
       <div className=" h-full w-full ">
         <img
           src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1742194171/image_1_dc409n.png"
