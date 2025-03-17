@@ -34,11 +34,7 @@ const HeroText = () => {
         & LLM based Solutions!
       </motion.p>
 
-      <span className="flex flex-row lg:mt-20 sm:mt-17 font-bold sm:ml-6 lg:ml-1 ">
-      <p className="lg:text-lg sm:text-xs mt-4  font-body text-darkGrey">Press</p>
-      <img src="https://res.cloudinary.com/dlqldp4wi/image/upload/v1741534470/sLetter_bacsm1.jpg" class="h-[55px] w-17"/>
-      <p className="lg:text-lg sm:text-xs mt-4 text-darkGrey font-body">to Schedule Meeting on Calendly</p>
-      </span>
+ 
     </div>
   );
 };
