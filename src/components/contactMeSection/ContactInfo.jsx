@@ -10,7 +10,7 @@ import SingleInfo from "./SingleInfo";
 
 const ContactInfo = () => {
   return (
-    <div className="flex flex-col gap-2 lg:w-[105%] sm:w-[100%] sm:mb-8 sm:ml-10 text-black font-body">
+    <div className="flex flex-col gap-2 lg:w-[105%] sm:w-[100%] sm:mb-8 sm:ml-8 text-black font-body">
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sendmailtoAbid@gmail.com" target="_blank" rel="noopener norefferer"><SingleInfo text="sendmailtoAbid@gmail.com" Image={HiOutlineMail} /></a>
       <a href="https://calendly.com/abidsaudagar/free-15-minute-ai-search-consulting" target="_blank" rel="noopener norefferer"><SingleInfo text="Abid Saudagar" Image={SiCalendly} /></a>
       <a href="https://www.linkedin.com/in/abidsaudagar/" target="_blank" rel="noopener norefferer"><SingleInfo text="Abid Saudagar" Image={FaLinkedinIn}/></a>
