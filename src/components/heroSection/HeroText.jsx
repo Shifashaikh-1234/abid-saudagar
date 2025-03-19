@@ -28,7 +28,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-xl sm:text-md mt-4 text-darkGrey font-body"
+        className="lg:text-xl sm:mb-4 sm:text-md mt-4 text-darkGrey font-body"
       >
          A Senior Machine Learning Engineer <br /> Helping Businesses develop semantic search, RAG chatbot 
         & LLM based Solutions!
