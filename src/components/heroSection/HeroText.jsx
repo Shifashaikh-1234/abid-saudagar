@@ -9,7 +9,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-lightBlueM font-bold font-body uppercase"
+        className="md:text-[2.8rem] lg:text-7xl sm:text-4xl text-lightBlueM font-bold font-body uppercase"
       >
         Abid <br className="sm:hidden md:block" />
         Saudagar
@@ -19,7 +19,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl  uppercase text-lightGrey font-body"
+        className="lg:text-3xl sm:text-xl  uppercase text-lightGrey font-body"
       >
         Senior Machine Learning Engineer
       </motion.h2>
@@ -28,7 +28,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4 text-darkGrey font-body"
+        className="text-xl mt-4 text-darkGrey font-body"
       >
          A Senior Machine Learning Engineer <br /> Helping Businesses develop semantic search, RAG chatbot 
         & LLM based Solutions!
